@@ -119,6 +119,7 @@ button {
 .introduction {
   padding: 160px 0px;
   background: url("../images/background-img.png") no-repeat center center;
+  background-size: cover;
 }
 .introduction .info {
   display: flex;
