@@ -79,11 +79,15 @@ button {
   padding-top: 40px;
 }
 .nav li {
-  width: 24%;
+  width: 23.6%;
 }
 .nav li a {
   color: #d1d1d1;
   text-decoration: none;
+}
+.nav li:last-child {
+  width: 16%;
+  text-align: right;
 }
 
 .header {
