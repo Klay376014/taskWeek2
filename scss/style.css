@@ -1,0 +1,250 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Bruno Ace SC", cursive;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+button {
+  font-family: "Bruno Ace SC";
+  display: block;
+  padding: 12px 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 32px;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.nav li {
+  width: 24%;
+}
+.nav li a {
+  color: #d1d1d1;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 72px 0px;
+}
+.header img {
+  display: block;
+}
+.header .author {
+  width: 49%;
+}
+.header .author h1 {
+  color: #00ffa3;
+  font-size: 128px;
+  text-align: right;
+}
+.header .author button {
+  margin-left: auto;
+}
+.header .author img {
+  display: inline-block;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+.introduction {
+  padding: 160px 0px;
+  background: url("../images/background-img.png") no-repeat center center;
+}
+.introduction .info {
+  display: flex;
+  justify-content: space-between;
+}
+.introduction .info-left {
+  width: 40.5%;
+}
+.introduction .info-left h2 {
+  font-size: 64px;
+  margin-bottom: 36px;
+}
+.introduction .info-left p {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+.introduction .info-left .sparkle {
+  display: flex;
+}
+.introduction .info-left .sparkle img {
+  display: block;
+  margin-right: 16px;
+}
+.introduction .info-right {
+  display: flex;
+}
+.introduction .info-right img {
+  display: block;
+  margin-left: 24px;
+}
+
+.about {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 160px 0px;
+}
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 49.1%;
+}
+.about .card li {
+  border: 1px #e3e3e3 solid;
+  padding: 16px;
+  width: 43%;
+  margin-bottom: 24px;
+}
+.about .card li h3 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.about .description {
+  width: 40.6%;
+}
+.about .description h2 {
+  margin-bottom: 36px;
+}
+.about .description p {
+  font-size: 24px;
+}
+
+.contact {
+  background: linear-gradient(#050014, rgba(1, 2, 30, 0.8901960784));
+  padding: 96px 0px;
+}
+.contact-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact img {
+  vertical-align: bottom;
+}
+.contact .sns {
+  display: flex;
+  align-items: center;
+}
+
+.project {
+  padding: 160px 0px;
+  background-color: #fff;
+  color: #000;
+}
+.project h2 {
+  width: 57.5%;
+  margin-left: auto;
+}
+.project-image {
+  display: flex;
+  margin-top: 16px;
+}
+.project-image img {
+  display: block;
+}
+.project .image-right {
+  margin-left: 24px;
+}
+.project .image-right-top {
+  display: flex;
+  margin-bottom: 28px;
+}
+.project .image-right-top .see-more {
+  margin-left: 24px;
+}
+.project .image-right-top .see-more p {
+  margin-bottom: 76px;
+}
+.project .image-right-top .see-more button {
+  background-color: #000;
+  color: #fff;
+}
+.project .image-right-top .see-more img {
+  display: inline-block;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+.project .image-right-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 0px;
+}/*# sourceMappingURL=style.css.map */
